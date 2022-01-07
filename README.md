@@ -9,12 +9,13 @@
 - `python3 -m pip install -r requirements.txt`
 
 ### Usage:
-- Add your place link in GoogleReviewBot.py file
+- Enter the URL link of the place to be rating in GoogleReviewBot.py file
+- Enter the email, password and comment lists into the files in the data folder
+- -Note: Number of emails,passwords and comments must be the same 
+- Then run the bot `python3 GoogleReviewBot.py`
 
-- `python3 GoogleReviewBot.py`
 
-
-### The url link of the place to be rating should be as follows:
+### The URL link of the place to be rating should be as follows:
 
 - 1-click the link below
 
