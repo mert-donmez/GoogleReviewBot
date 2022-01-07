@@ -17,11 +17,10 @@ class GoogleReviewBot:
 
     def initialize(self):
         self.i = 0
+        PlaceURL = " -- " #ENTER YOUR LINK HERE
         self.driver = uc.Chrome()
         self.driver.delete_all_cookies()
-        #don't touch first url, second url have to be your place link
-        #aşağıdaki linklerden ilkine karışmayın, 2. linke mekanın linkini ekleyin
-        self.urls = ["https://accounts.google.com/signin/v2/identifier?hl=tr&passive=true&continue=https%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3Dgoogle%26oq%3Dgoogle%26aqs%3Dchrome.0.69i59l3j0i271l2j69i60j69i65j69i60.706j0j1%26sourceid%3Dchrome%26ie%3DUTF-8&ec=GAZAAQ&flowName=GlifWebSignIn&flowEntry=ServiceLogin","https://www.google.com/search?q=empire+state&biw=1920&bih=841&tbm=lcl&sxsrf=AOaemvL7OVsfVFejU7WtvWANxm7YYVsF3g%3A1641130676800&ei=tKrRYfukMJ6Pxc8PpZ-guAU&oq=empire&gs_l=psy-ab.3.0.35i39k1j0i67k1j0i433i67k1l2j0i67k1j0i512i433k1j0i512i433i131k1j0i512k1l2j0i67k1.3750.4614.0.5688.6.6.0.0.0.0.148.521.0j4.4.0....0...1c.1.64.psy-ab..2.4.520...0i433i131i67k1.0.zYRVJP0v614#lrd=0x89c259a9b3117469:0xd134e199a405a163,3,,,&rlfi=hd:;si:15074921902713971043,l,CgxlbXBpcmUgc3RhdGVIn6MFWhoQABABGAAYASIMZW1waXJlIHN0YXRlMgJlbpIBEnRvdXJpc3RfYXR0cmFjdGlvbg;mv:[[40.7623369,-73.9734876],[40.746033499999996,-73.9899202]]"]
+        self.urls = ["https://accounts.google.com/signin/v2/identifier?hl=tr&passive=true&continue=https%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3Dgoogle%26oq%3Dgoogle%26aqs%3Dchrome.0.69i59l3j0i271l2j69i60j69i65j69i60.706j0j1%26sourceid%3Dchrome%26ie%3DUTF-8&ec=GAZAAQ&flowName=GlifWebSignIn&flowEntry=ServiceLogin",PlaceURL]
         self.driver.get(self.urls[self.i])
         
     
