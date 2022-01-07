@@ -3,4 +3,4 @@
 
 You change sleep duration according to your internet speed
  
-requirements: selenium,pyton3,pandas,undetected_chromedriver
+requirements: selenium,python3,pandas,undetected_chromedriver
