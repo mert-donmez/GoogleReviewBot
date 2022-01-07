@@ -1,9 +1,17 @@
 # GoogleReviewBot
 ## Automatically Google review  with 5 star rating.
 
-You can change sleep duration according to your internet speed
 
-requirements: selenium,python3,pandas,undetected_chromedriver
+
+### setup:
+- `git clone https://github.com/mert-donmez/GoogleReviewBot`
+
+- `python3 -m pip install -r requirements.txt`
+
+### Usage:
+- Add your place link in GoogleReviewBot.py file
+
+- `python3 GoogleReviewBot.py`
 
 
 ### The url link of the place to be rating should be as follows:
@@ -14,10 +22,13 @@ example: Empire State Building https://www.google.com/search?q=empire+state+buil
 
 - 2-Search and find your place
 
-- 3-Scroll down and click "add comment" button then take url link
+- 3-Scroll down and click "add comment" button
 
-it has to be like this:
+- 4-it has to be like this then take link and add link in GoogleReviewBot.py file
 ![Screenshot from 2022-01-08 00-31-45](https://user-images.githubusercontent.com/83416622/148614341-f61c874c-92a1-425b-89d4-57059b035b43.png)
 
-### Usage:
-- python3 GoogleReviewBot.py
+- You can change sleep duration according to your internet speed
+- if there is a problem with the running of the program, the sleep times are short
+
+
+
