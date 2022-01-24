@@ -12,7 +12,7 @@
 - Enter the URL link of the place to be rating in GoogleReviewBot.py file
 - Enter the email, password and comment lists into the files in the data folder
 - -Note: Number of emails,passwords and comments must be the same 
-- Use IP swithcer with this bot: [IP_Switcher](https://github.com/mert-donmez/IP_Degistirici)
+- Use IP switcher with this bot: [IP_Switcher](https://github.com/mert-donmez/IP_Degistirici)
 - Then run the bot `python3 GoogleReviewBot.py`
 
 
